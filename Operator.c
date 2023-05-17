@@ -12,13 +12,10 @@ void main(){
 
     //bitwise operator
     int A=10, B=2;
-    //1000 
-    //0100
-//1100    
     printf("Bitwise AND operator returned: %d\n",A&B);
     printf("Bitwise OR operator returned: %d\n",A|B);
-    printf("Bitwise E-OR operator returned: %d\n",A^B);
-    printf("Bitwise complement operator returned: %d\n",~B);
+    printf("Bitwise X-OR operator returned: %d\n",A^B);
+    printf("Bitwise ones complement operator returned: %d\n",~B);
     printf("Bitwise left shift operator returned: %d\n",A<<B);
     printf("Bitwise right shift operator returned: %d\n",A>>B);
 

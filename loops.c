@@ -16,6 +16,15 @@ void main(){
         printf("%d\n",index);
         index++;
     }
+    for (int i=0;i<10;i++){
+        printf("%d\t",i);
+    }
+    int i=0;
+    do{
+        printf("do while is running: %d\n",i);
+        i++;
+
+    }while (i<=10);
 
     
 }

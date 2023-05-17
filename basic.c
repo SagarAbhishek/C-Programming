@@ -23,8 +23,5 @@ int main(){
    printf("The size of unsigned char is %d\n",sizeof(unsigned char));
    printf("The size of signed char is %d\n",sizeof(signed char));
    printf("The size of short is %d\n",sizeof(short));
-
-
-
     return 0;
 }
